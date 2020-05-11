@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana;
+  max-width: 600px;
+  margin: auto;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #50B385, #B34D3E 90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-content: center;
+  border: 5px solid;
+  border-radius: 15px;
+  height: 900px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px auto;
+}
+.topo a{
+  text-decoration: none;
+  color: #4F150C;
+}
+.topo li{
+  list-style: none;
+  display: inline;
+}
+.topo a:hover{
+  color: white;
+}
+
+.conteudo{
+  padding-top: 50px;
+  text-align: center;
+}
